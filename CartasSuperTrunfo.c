@@ -7,16 +7,62 @@
 //Teste larissa
 
 int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+
+    char estado[1];
+    //inserindo a variavel para inicial do estado composto de uma letra
+    char codigo[3];
+    //inserindo a variavel para o codigo da carta com 3 caracteres
+    char nome[20];
+    //inserindo a variavel para inserir o nome da cidade
+    int populacao;
+    //variavel para inserir o numero de habitantes
+    float area;
+    //variavel para inserir a area do estado
+    float pib;
+    //variavel para inserir o pib do estado
+    int pontos;
     
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    printf("Jogo Carta Supertrunfo \n");
     
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("Qual a inicial do Estado? /n");
+    scanf ("%s", &estado);
+    
+    printf("Qual codigo da Carta?\n");
+    scanf ("%s", &codigo);
+    
+    printf ("Qual nome da cidade?\n");
+    scanf ("%s", &nome);
+    
+    printf ("Qual a Populacao? \n");
+    scanf ("%d", &populacao);
+
+    printf ("Qual a area?\n");
+    scanf ("%f", &area);
+
+    printf ("Qual o PIB?\n");
+    scanf ("%f", &pib);
+
+    printf ("Quantos Pontos Turisticos? \n");
+    scanf ("%d", &pontos);
+
+    // Acima foram inseridos as entradas e saidas de informacoes utilizando print e scan f
+
+    printf ("Carta 01 \n");
+    printf ("Estado:%s \n", estado);
+    printf ("Codigo: %s \n", codigo);
+    printf ("Nome da Cidade: %s \n", nome);
+    printf ("Populacao: %d \n", populacao);
+    printf ("Area: %f \n", area);
+    printf ("Pib: %f \n", pib);
+    printf ("Pontos Turisticos: %d \n", pontos);
+
+    //comandos para ser apresentado na tela as informacoes colhidas no comando anterior da primeira carta
+
+
+
+
+
+
 
     return 0;
 }
